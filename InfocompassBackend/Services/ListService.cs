@@ -1,6 +1,5 @@
 ﻿using DataAccess;
 using DataAccess.Models;
-using InfocompassBackend.Models.Requests;
 using InfocompassBackend.Models.Responses;
 using InfocompassBackend.Services.Interfaces;
 using System;

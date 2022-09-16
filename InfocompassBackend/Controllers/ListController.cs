@@ -1,7 +1,5 @@
-﻿using InfocompassBackend.Models.Requests;
-using InfocompassBackend.Models.Responses;
+﻿using InfocompassBackend.Models.Responses;
 using InfocompassBackend.Services.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 

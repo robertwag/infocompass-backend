@@ -1,5 +1,4 @@
-﻿using InfocompassBackend.Models.Requests;
-using InfocompassBackend.Models.Responses;
+﻿using InfocompassBackend.Models.Responses;
 using System.Collections.Generic;
 
 namespace InfocompassBackend.Services.Interfaces
