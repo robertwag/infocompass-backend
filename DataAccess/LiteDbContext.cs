@@ -15,6 +15,12 @@ namespace DataAccess
 
             using (var db = new LiteDatabase(@"LiteDb.db"))
             {
+
+                // Get the liteDb collection
+                // Find all elements in the collection
+                // Append all elements to the list
+                // Unfortunately LiteDb is not capable for LINQ like the EntitfyFramework
+
                 var listCollection = db.GetCollection<ListModel>("list");
                 var elements = listCollection.FindAll();                
                 foreach(var listItem in elements)
@@ -34,6 +40,9 @@ namespace DataAccess
                 return element;
             }
         }
+
+        // First add the element to the database
+        // Return value is the GetList function where all elements are gatherd
 
         public List<ListModel> AddElement(ListModel Model)
         {

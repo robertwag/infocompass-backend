@@ -1,4 +1,4 @@
-﻿namespace InfocompassBackend.Models
+﻿namespace InfocompassBackend.Models.Responses
 {
     public class ListViewModel
     {

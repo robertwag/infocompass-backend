@@ -1,5 +1,5 @@
-﻿using InfocompassBackend.Models;
-using InfocompassBackend.Models.Requests;
+﻿using InfocompassBackend.Models.Requests;
+using InfocompassBackend.Models.Responses;
 using InfocompassBackend.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -30,7 +30,6 @@ namespace InfocompassBackend.Controllers
             {
                 return _listService.AddElement(name);
             }
-
             return null;
         }
         [HttpDelete]
